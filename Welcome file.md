@@ -135,7 +135,8 @@ Alice->John: Yes... John, how are you?
 And this will produce a flow chart:
 
 ```mermaid
-graph TD
+graph TB
+A[프로그램 시작](Round Rect) -- link -- 
 A[Square Rect] -- Link text --> B((Circle))
 A --> C(Round Rect)
 B --> D{Rhombus}
@@ -144,5 +145,5 @@ C --> D{Rhombus}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4MDAxMjQ3XX0=
+eyJoaXN0b3J5IjpbNzgwMjk3NDM4LDQ3ODAwMTI0N119
 -->
